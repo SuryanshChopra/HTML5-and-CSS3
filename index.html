@@ -5,9 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Component Library</title>
+
+    <!-- CSS way 1: style tag
+    
+    <style>
+        body {
+            color: red;
+        }
+    </style> -->
+
+
+    <!-- CSS way 3: External link -->
+    <link href="styles.css" rel="stylesheet" />
+    
 </head>
 <body>
-    <h1>My Component Library </h1>
+    <!-- 
+    CSS way 2: style attribute
+    <h1 style ="color: purple;">My Component Library </h1>
+     -->
+
+    <h1 id="lib-header">My component Library</h1>
     <p> I am attending neog.camp and I want to make a library which would 
         make all my projects look good and consistent.
 
@@ -26,12 +44,12 @@
         <h2>@containers</h2>
 
         <h3>Fluid containers</h3>
-        <div>This is a Fluid container and it will go till the end of the
+        <div class="italica">This is a Fluid container and it will go till the end of the
             page.
         </div>
 
         <h3>Center containers</h3>
-        <div>This is a centered container and it will go till the specified
+        <div class="italica">This is a centered container and it will go till the specified
             width.
         </div>
 
