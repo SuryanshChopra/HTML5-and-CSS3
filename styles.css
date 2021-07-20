@@ -57,6 +57,7 @@ hr {
     padding: 0rem 0.5rem;
 }
 
+
 /** Nav **/
 
 .navigation {
@@ -135,6 +136,11 @@ hr {
 
 .footer .link {
     color: white;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
 }
 
 .footer ul {
